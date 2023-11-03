@@ -8,10 +8,10 @@ from app.tts import SpeakMyWords
 app.secret_key = 'albasrawie'
 
 
-# @app.route('/')
-# @app.route('/hoy')
-# def index():
-#     return render_template('my_index.html')
+@app.route('/')
+@app.route('/hoy')
+def index():
+    return render_template('my_index.html')
 
 
 # respond the pront
