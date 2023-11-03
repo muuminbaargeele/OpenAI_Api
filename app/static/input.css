@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  background: linear-gradient(15.46deg, #4a25e1 26.3%, #7b5aff 86.4%);
+}
