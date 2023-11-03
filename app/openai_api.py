@@ -7,7 +7,7 @@ from app.tts import SpeakMyWords
 
 # Set your API key
 
-api_key = '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'
+api_key = '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'
 api_key2 = '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'
 api_key3 = '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'
 # Initialize an empty conversation
